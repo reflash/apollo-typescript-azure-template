@@ -73,3 +73,28 @@ az group delete \
     --name apollo-ts-azure \
     --yes
 ```
+
+
+## Serverless
+
+Install serverless cli
+```bash
+npm install -g serverless
+```
+
+To login to Azure (https://github.com/serverless/serverless-azure-functions#advanced-authentication)
+
+Deploy locally
+```bash
+sls offline
+```
+
+Deploy
+```bash
+sls deploy
+```
+
+Cleanup
+```bash
+sls remove
+```

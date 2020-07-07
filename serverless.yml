@@ -1,0 +1,17 @@
+# serverless.yml
+
+service: apollo-ts
+
+provider:
+  name: azure
+  location: Germany West Central
+  runtime: nodejs12
+
+plugins:
+  - serverless-azure-functions
+
+functions:
+  graphql:
+    handler: dist/graphql/index
+    events:
+      - http: true
