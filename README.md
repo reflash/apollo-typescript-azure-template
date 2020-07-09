@@ -44,11 +44,11 @@ az functionapp create \
 func azure functionapp publish apollo-ts-azure
 ```
 
-If function app has changed - check package.json:publish script.
+If function app has changed - check package.json:deploy script.
 Then yarn cmd can be used for publishing
 
 ```bash
-yarn publish
+yarn deploy
 ```
 
 ## NOTE

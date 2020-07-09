@@ -8,7 +8,7 @@
     "start:host": "sls offline",
     "start": "npm-run-all --parallel start:host watch",
     "test": "echo \"No tests yet...\"",
-    "publish": "sls deploy"
+    "deploy": "sls deploy"
   },
   "description": "",
   "devDependencies": {
