@@ -98,3 +98,7 @@ Cleanup
 ```bash
 sls remove
 ```
+
+## Apollo Studio
+
+To configure Apollo Studio - check examples/apollo-studio
